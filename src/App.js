@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Navbar collapseOnSelect expand="lg" bg="light" variant="black">
         <Container fluid className='d-flex align-items-center'>
-          <Navbar.Brand href="#home" className='mr-auto' as={Link} to="/">
+          <Navbar.Brand href="#home" className='mr-auto' as={Link} to="/app_tfprimate">
             <Image src={require("./img/TFprimate.png")} fluid width="30" height="30"></Image>TFprimate
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -29,7 +29,7 @@ function App() {
         </Container>
       </Navbar>
       <Routes>
-        <Route exact path="/" element={<MainContent/>}/>
+        <Route exact path="/app_tfprimate" element={<MainContent/>}/>
         <Route exact path="/search" element={<SearchPage/>}/>
         <Route exact path="/alignment" element={<Alignment/>}/>
         <Route exact path="/download" element={<Download/>}/>
