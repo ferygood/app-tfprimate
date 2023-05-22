@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/app_tfprimate/static/css/main.c3252e5a.css",
-    "main.js": "/app_tfprimate/static/js/main.823c8bf6.js",
+    "main.css": "/app_tfprimate/static/css/main.90639ba2.css",
+    "main.js": "/app_tfprimate/static/js/main.b15e25e3.js",
     "static/js/111.621c5c75.chunk.js": "/app_tfprimate/static/js/111.621c5c75.chunk.js",
     "static/media/tfprimate_bgwall.png": "/app_tfprimate/static/media/tfprimate_bgwall.d6f336ca3af9a1745f51.png",
+    "static/media/test_rnaseq.png": "/app_tfprimate/static/media/test_rnaseq.c39c1abc2b2417455ebf.png",
+    "static/media/ZNF14.jpg": "/app_tfprimate/static/media/ZNF14.01e8cdc0f14ca2036a97.jpg",
     "static/media/TFprimate.png": "/app_tfprimate/static/media/TFprimate.13ec0db271182c15903d.png",
     "index.html": "/app_tfprimate/index.html",
-    "main.c3252e5a.css.map": "/app_tfprimate/static/css/main.c3252e5a.css.map",
-    "main.823c8bf6.js.map": "/app_tfprimate/static/js/main.823c8bf6.js.map",
+    "main.90639ba2.css.map": "/app_tfprimate/static/css/main.90639ba2.css.map",
+    "main.b15e25e3.js.map": "/app_tfprimate/static/js/main.b15e25e3.js.map",
     "111.621c5c75.chunk.js.map": "/app_tfprimate/static/js/111.621c5c75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3252e5a.css",
-    "static/js/main.823c8bf6.js"
+    "static/css/main.90639ba2.css",
+    "static/js/main.b15e25e3.js"
   ]
 }
