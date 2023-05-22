@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/app_tfprimate/static/css/main.90639ba2.css",
-    "main.js": "/app_tfprimate/static/js/main.c59490c6.js",
+    "main.js": "/app_tfprimate/static/js/main.c52f94e5.js",
     "static/js/111.621c5c75.chunk.js": "/app_tfprimate/static/js/111.621c5c75.chunk.js",
     "static/media/tfprimate_bgwall.png": "/app_tfprimate/static/media/tfprimate_bgwall.d6f336ca3af9a1745f51.png",
     "static/media/test_rnaseq.png": "/app_tfprimate/static/media/test_rnaseq.c39c1abc2b2417455ebf.png",
@@ -9,11 +9,11 @@
     "static/media/TFprimate.png": "/app_tfprimate/static/media/TFprimate.13ec0db271182c15903d.png",
     "index.html": "/app_tfprimate/index.html",
     "main.90639ba2.css.map": "/app_tfprimate/static/css/main.90639ba2.css.map",
-    "main.c59490c6.js.map": "/app_tfprimate/static/js/main.c59490c6.js.map",
+    "main.c52f94e5.js.map": "/app_tfprimate/static/js/main.c52f94e5.js.map",
     "111.621c5c75.chunk.js.map": "/app_tfprimate/static/js/111.621c5c75.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90639ba2.css",
-    "static/js/main.c59490c6.js"
+    "static/js/main.c52f94e5.js"
   ]
 }
