@@ -22,7 +22,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/app_tfprimate">
       <Navbar
         ref={navbarRef}
         expanded={navbarExpanded}
@@ -33,23 +33,23 @@ function App() {
         variant="black"
       >
         <Container fluid className="d-flex align-items-center">
-          <Navbar.Brand href="#home" className="mr-auto" as={Link} to="/app_tfprimate">
+          <Navbar.Brand href="#home" className="mr-auto" as={Link} to="/">
             <Image src={require("./img/TFprimate.png")} fluid width="30" height="30" />
             TFprimate
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as={Link} to="/app_tfprimate/search" onClick={handleNavLinkClick}>
+              <Nav.Link as={Link} to="/search" onClick={handleNavLinkClick}>
                 Search
               </Nav.Link>
-              <Nav.Link as={Link} to="/app_tfprimate/alignment" onClick={handleNavLinkClick}>
+              <Nav.Link as={Link} to="/alignment" onClick={handleNavLinkClick}>
                 Alignment
               </Nav.Link>
-              <Nav.Link as={Link} to="/app_tfprimate/download" onClick={handleNavLinkClick}>
+              <Nav.Link as={Link} to="/download" onClick={handleNavLinkClick}>
                 Download
               </Nav.Link>
-              <Nav.Link as={Link} to="/app_tfprimate/about" onClick={handleNavLinkClick}>
+              <Nav.Link as={Link} to="/about" onClick={handleNavLinkClick}>
                 About
               </Nav.Link>
             </Nav>
@@ -57,11 +57,11 @@ function App() {
         </Container>
       </Navbar>
       <Routes>
-        <Route exact path="/app_tfprimate" element={<MainContent />} />
-        <Route exact path="/app_tfprimate/search" element={<SearchPage />} />
-        <Route exact path="/app_tfprimate/alignment" element={<RenderRunHTML />} />
-        <Route exact path="/app_tfprimate/download" element={<Download />} />
-        <Route exact path="/app_tfprimate/about" element={<About />} />
+        <Route exact path="/" element={<MainContent />} />
+        <Route exact path="/search" element={<SearchPage />} />
+        <Route exact path="/alignment" element={<RenderRunHTML />} />
+        <Route exact path="/download" element={<Download />} />
+        <Route exact path="/about" element={<About />} />
       </Routes>
       <footer className="footer" style={{ backgroundColor: 'lightblue', textAlign: 'center' }}>
         <Container fluid>
