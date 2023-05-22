@@ -5,9 +5,10 @@ import Image from 'react-bootstrap/Image';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import MainContent from './pages/MainContent';
 import SearchPage from './pages/SearchPage';
-import Alignment from './pages/Alignment'; 
+import RenderRunHTML from './pages/Alignment'; 
 import Download from './pages/Download';
 import About from './pages/About';
+
 
 function App() {
   return (
@@ -29,11 +30,11 @@ function App() {
         </Container>
       </Navbar>
       <Routes>
-        <Route exact path="/app_tfprimate" element={<MainContent/>}/>
-        <Route exact path="/search" element={<SearchPage/>}/>
-        <Route exact path="/alignment" element={<Alignment/>}/>
-        <Route exact path="/download" element={<Download/>}/>
-        <Route exact path="/about" element={<About/>}/>
+        <Route exact path="/app_tfprimate" element={<MainContent />}/>
+        <Route exact path="/search" element={<SearchPage />}/>
+        <Route exact path="/alignment" element={<RenderRunHTML />} />
+        <Route exact path="/download" element={<Download />}/>
+        <Route exact path="/about" element={<About />}/>
       </Routes>
       <footer className='footer' style={{ backgroundColor: 'lightblue', textAlign: 'center' }}>
         <Container fluid>
