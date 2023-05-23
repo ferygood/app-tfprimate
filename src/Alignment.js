@@ -11,7 +11,7 @@ const RenderRunHTML = () => {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="../jalview-js/swingjs/swingjs2.js"></script>
+    <script src="./jalview-js/swingjs/swingjs2.js"></script>
     <script>
       if (!self.SwingJS)alert('swingjs2.js was not found. It needs to be in swingjs folder in the same directory as ' + document.location.href)
       Info = {
@@ -20,7 +20,7 @@ const RenderRunHTML = () => {
         core:"jvexamplefile",
         readyFunction: null,
         serverURL: 'https://chemapps.stolaf.edu/jmol/jsmol/php/jsmol.php',
-        j2sPath: '../jalview-js/swingjs/j2s',
+        j2sPath: './jalview-js/swingjs/j2s',
         console:'sysoutdiv',
         allowjavascript: true,
         

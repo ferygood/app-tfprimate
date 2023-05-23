@@ -44,12 +44,12 @@ function MainContent() {
           </p>
         </Col>
         <Col xs={8}>
-          <Image src={require("../img/ZNF14.jpg")} fluid />
+          <Image src={require("./img/ZNF14.jpg")} fluid />
         </Col>
       </Row>
       <Row className='my-5' style={{ backgroundColor: 'rgba(204, 255, 230, 0.36)' }}>
         <Col xs={8}>
-          <Image src={require("../img/test_rnaseq.png")} fluid />
+          <Image src={require("./img/test_rnaseq.png")} fluid />
         </Col>
         <Col className='m-5'>
           <h3>RNA-seq</h3>

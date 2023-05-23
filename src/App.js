@@ -4,11 +4,11 @@ import { useState, useRef } from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import MainContent from './pages/MainContent';
-import SearchPage from './pages/SearchPage';
-import RenderRunHTML from './pages/Alignment'; 
-import Download from './pages/Download';
-import About from './pages/About';
+import MainContent from './MainContent';
+import SearchPage from './SearchPage';
+import RenderRunHTML from './Alignment';
+import Download from './Download';
+import About from './About';
 
 function App() {
   const [navbarExpanded, setNavbarExpanded] = useState(false);
@@ -57,11 +57,11 @@ function App() {
         </Container>
       </Navbar>
       <Routes>
-        <Route exact path="/" element={<MainContent />} />
-        <Route exact path="/search" element={<SearchPage />} />
-        <Route exact path="/alignment" element={<RenderRunHTML />} />
-        <Route exact path="/download" element={<Download />} />
-        <Route exact path="/about" element={<About />} />
+        <Route path="/" element={<MainContent />} />
+        <Route path="/search" element={<SearchPage />} />
+        <Route path="/alignment" element={<RenderRunHTML />} />
+        <Route path="/download" element={<Download />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <footer className="footer" style={{ backgroundColor: 'lightblue', textAlign: 'center' }}>
         <Container fluid>
