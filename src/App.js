@@ -22,7 +22,7 @@ function App() {
   };
 
   return (
-    <Router basename='/app_tfprimate'>
+    <Router>
       <Navbar
         ref={navbarRef}
         expanded={navbarExpanded}

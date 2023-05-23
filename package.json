@@ -58,7 +58,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://ferygood.github.io/app_tfprimate",
+  "homepage": "https://app-tfprimate.netlify.app",
   "devDependencies": {
     "webpack": "2.2.1",
     "webpack-cli": "^5.1.1"
