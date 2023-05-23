@@ -57,11 +57,11 @@ function App() {
         </Container>
       </Navbar>
       <Routes>
-        <Route path="/" element={<MainContent />} />
-        <Route path="/search" element={<SearchPage />} />
-        <Route path="/alignment" element={<RenderRunHTML />} />
-        <Route path="/download" element={<Download />} />
-        <Route path="/about" element={<About />} />
+        <Route exact path="/" element={<MainContent />} />
+        <Route exact path="/search" element={<SearchPage />} />
+        <Route exact path="/alignment" element={<RenderRunHTML />} />
+        <Route exact path="/download" element={<Download />} />
+        <Route exact path="/about" element={<About />} />
       </Routes>
       <footer className="footer" style={{ backgroundColor: 'lightblue', textAlign: 'center' }}>
         <Container fluid>
